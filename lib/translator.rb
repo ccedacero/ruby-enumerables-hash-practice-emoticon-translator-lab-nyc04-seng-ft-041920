@@ -15,7 +15,7 @@ end
    emojis = load_library(lib) 
    emojis.each do |key, val|
    if em == val[:japanese]
-    return val[:english]
+    return key
    end
   # emotions
   end
