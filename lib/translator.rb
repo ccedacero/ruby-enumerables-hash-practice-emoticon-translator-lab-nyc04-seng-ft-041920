@@ -7,7 +7,7 @@ require "yaml"
     :japanese => emo[1]
   }
   end
-  return emot
+  return emotions
 end
 
 
