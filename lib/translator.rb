@@ -30,4 +30,5 @@ def get_japanese_emoticon(lib,em)
    end
   # emotions
   end
+  return "Sorry, that emoticon was not found"
 end
