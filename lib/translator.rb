@@ -11,11 +11,22 @@ require "yaml"
   return emoticon
 end
 
-
-def get_japanese_emoticon
-  # code goes here
+  def get_english_meaning(lib,em)
+   emojis = load_library(lib) 
+   emojis.each do |key, val|
+   if em == val[:japanese]
+    return val[:english]
+   end
+  # emotions
+  end
 end
 
-def get_english_meaning
-  # code goes here
+def get_japanese_emoticon(lib,em)
+  emojis = load_library(lib)
+   emojis.each do |key, val|
+   if em == val[:english]
+    return val[:japanese]
+   end
+  # emotions
+  end
 end
