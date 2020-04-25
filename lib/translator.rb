@@ -3,7 +3,7 @@ require "yaml"
    emotions = YAML.load_file(lib)
    emoticon = {}
    emotions.each do |key, emo|
-   emot[key] = {
+   emoticon[key] = {
     :english => emo[0],
     :japanese => emo[1]
   }
